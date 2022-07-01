@@ -4,7 +4,7 @@
 
 ## Install
 
-<a alt="chrome webstore" href="https://chrome.google.com/webstore/detail/"><img alt="install on chrome" width="200px" src="chrome.png"></a>
+<a alt="chrome webstore" href="https://chrome.google.com/webstore/detail/kncppeginfiiolkcjgjplepdncccoigo"><img alt="install on chrome" width="200px" src="chrome.png"></a>
 
 ## Use
 

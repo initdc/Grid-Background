@@ -1,12 +1,12 @@
-chrome.tabs.onActivated.addListener(async (activeInfo) => {
-  const tab = await chrome.tabs.get(activeInfo.tabId);
-  const url = tab.url;
-  if (url) {
-  }
-});
+const width = "6.25";
+const wUnit = "vw";
+const height = "2";
+const hUnit = "rem";
+const color = "#d3d3d3";
+const grid = "row";
 
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  const url = tab.url;
-  if (url) {
-  }
+const crStorage = chrome.storage.local;
+
+chrome.runtime.onInstalled.addListener(() => {
+  crStorage.set({ width, wUnit, height, hUnit, color, grid });
 });
